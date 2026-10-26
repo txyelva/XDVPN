@@ -4,6 +4,10 @@
 
 不信任闭源 VPN 客户端，又烦每次手敲 `sudo openconnect ...` 和输密码，而且 openconnect 命令行不能保存密码，所以自己做了一个。
 
+## OpenWrt 插件
+
+新增的 [OpenWrt 插件](openwrt/README.md) 提供 LuCI 界面、Hillstone SCVPN 核心及可选 OpenConnect 接入，支持私有规则导入和分流优先级诊断。安装、构建与兼容性限制见插件文档。Hillstone 核心采用 GPL-3.0-only，LuCI 与其他自有脚本采用 MIT。
+
 ## 特性
 
 - 菜单栏常驻，无 Dock 图标
